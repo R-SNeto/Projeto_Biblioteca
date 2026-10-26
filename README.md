@@ -90,7 +90,7 @@ mvn clean install
 
 ---
 
-## ▶️ Como executar
+## Como executar
 
 Compile e execute a aplicação com o Maven:
 
@@ -102,7 +102,7 @@ Ou, pela sua IDE (IntelliJ IDEA, Eclipse, VS Code), abra o projeto como um proje
 
 ---
 
-## 🗄 Banco de dados
+## Banco de dados
 
 Os scripts SQL estão na pasta [`sql/`](./sql). Eles contêm a estrutura das tabelas usadas pela aplicação.
 
