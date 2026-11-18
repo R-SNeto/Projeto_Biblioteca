@@ -1,7 +1,7 @@
-package dao;
+package com.github.r_sneto.BibliotecaSpring.dao;
 
-import db.Conexao;
-import model.Autor;
+import com.github.r_sneto.BibliotecaSpring.db.Conexao;
+import com.github.r_sneto.BibliotecaSpring.model.Autor;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

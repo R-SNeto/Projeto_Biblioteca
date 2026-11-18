@@ -1,4 +1,4 @@
-package db;
+package com.github.r_sneto.BibliotecaSpring.db;
 
 import io.github.cdimascio.dotenv.Dotenv;
 
