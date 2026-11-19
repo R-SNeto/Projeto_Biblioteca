@@ -1,5 +1,6 @@
 package com.github.r_sneto.BibliotecaSpring.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -15,7 +16,11 @@ public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(nullable = false, unique = true)
     private String nome;
+
+    @Column(nullable = false, length = 100)
     private String login;
 
     public Usuario() {
